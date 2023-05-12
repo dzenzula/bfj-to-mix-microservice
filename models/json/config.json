@@ -1,0 +1,34 @@
+{
+    "bfj_api_prod": {
+        "apiUrl": "https://krr-app-paweb01.europe.mittalco.com/blast-furnace-journal-webapi/api",
+        "apiGetLastJournals": "https://krr-app-paweb01.europe.mittalco.com/blast-furnace-journal-webapi/api/Journals/GetLastJournals/%s",
+        "apiGetJournal": "https://krr-app-paweb01.europe.mittalco.com/blast-furnace-journal-webapi/api/Journals/GetJournal/%s&%s",
+        "apiPostAuthTest": "https://krr-tst-padev02.europe.mittalco.com/blast-furnace-journal-webapi/api/Authorization/LogInAuthorization",
+        "apiPostAuthProd": "https://krr-app-paweb01.europe.mittalco.com/blast-furnace-journal-webapi/api/Authorization/LogInAuthorization",
+        "apiGetListBF": "https://krr-app-paweb01.europe.mittalco.com/blast-furnace-journal-webapi/api/Utility/GetListBF",
+        "apiGetChemCoxes": "https://krr-app-paweb01.europe.mittalco.com/blast-furnace-journal-webapi/api/ChemCoxes/%s",
+        "apiGetChemicalsSlags": "https://krr-app-paweb01.europe.mittalco.com/blast-furnace-journal-webapi/api/ChemicalSlags/%s",
+        "apiGetChemMaterials": "https://krr-app-paweb01.europe.mittalco.com/blast-furnace-journal-webapi/api/ChemMaterials/%s",
+        "apiGetTappings": "https://krr-app-paweb01.europe.mittalco.com/blast-furnace-journal-webapi/api/Tappings/%s"    
+    },
+
+    "mix_api_test": {
+        "apiUrl": "https://krr-tst-padev02.europe.mittalco.com/mixer-journal-webapi/api",
+        "apiPostAuthTest": "https://krr-tst-padev02.europe.mittalco.com/mixer-journal-webapi/api/Authorization/LogInAuthorization",
+        "apiGetLastJournals": "https://krr-tst-padev02.europe.mittalco.com/mixer-journal-webapi/api/Journals/GetLastJournals/%s",
+        "apiPostChemical": "https://krr-tst-padev02.europe.mittalco.com/mixer-journal-webapi/api/ExternalServices/AddChemical",
+        "apiPostLadleMovement": "https://krr-tst-padev02.europe.mittalco.com/mixer-journal-webapi/api/LadleMovement/%s",
+        "apiPostPouringBucketMovement": "https://krr-tst-padev02.europe.mittalco.com/mixer-journal-webapi/api/PouringBucketMovement/%s",
+        "apiGetLadleMovement": "https://krr-tst-padev02.europe.mittalco.com/mixer-journal-webapi/api/LadleMovement/%s"
+    },
+
+    "paths": {
+        "cachePath": "cache/cache.yaml"
+    },
+
+    "auth": {
+        "login": "aadzenzura",
+        "password": "h)#X2Ubu04Qm1",
+        "domain": "EUROPE"
+    }
+}
